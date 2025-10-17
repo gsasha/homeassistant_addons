@@ -78,6 +78,7 @@ options:
   Debug_Mode: false
   I2C_bus: 1
   Screenshot: ''
+  Driver: 'SSD1306'
 
 schema:
   Show_Static_Screen: bool
@@ -120,3 +121,4 @@ schema:
   Debug_Mode: bool
   I2C_bus: "int(0,20)"
   Screenshot: "list(|/media)"
+  Driver: "list(SSD1306|SSD1309)"
