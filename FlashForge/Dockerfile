@@ -11,7 +11,7 @@ RUN \
     py3-flask-cors \
     py3-jinja2
 
-RUN git clone https://github.com/crismc/flashforge-api.git /flashforge
+RUN git clone https://github.com/gsasha/flashforge-api.git /flashforge
     
 COPY run.sh /
 WORKDIR /data

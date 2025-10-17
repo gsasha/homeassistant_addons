@@ -12,13 +12,13 @@ Enables 128x32 pixel OLED for Raspberry Pi (both 32 and 64bit).
 ## Some Teaser Screenshots.
 | Welcome | HA Splash | Network Stats | CPU Stats | RAM Stats | Storage Stats | Exit Screen | 
 |-----------|-----------|-----------|-----------|---------------|---------------|---------------|
-| ![Welcome](https://github.com/crismc/rpi_i2c_oled/blob/master/img/examples/welcome.png?raw=true) | ![Splash](https://github.com/crismc/rpi_i2c_oled/blob/master/img/examples/splash.png?raw=true) | ![CPU Stats](https://github.com/crismc/rpi_i2c_oled/blob/master/img/examples/cpu.png?raw=true) | ![RAM Stats](https://github.com/crismc/rpi_i2c_oled/blob/master/img/examples/memory.png?raw=true) | ![Storage Stats](https://github.com/crismc/rpi_i2c_oled/blob/master/img/examples/storage.png?raw=true) | ![Network Stats](https://github.com/crismc/rpi_i2c_oled/blob/master/img/examples/network.png?raw=true) | ![Goodbye](https://github.com/crismc/rpi_i2c_oled/blob/master/img/examples/static_goodbye.png?raw=true)
+| ![Welcome](https://github.com/gsasha/rpi_i2c_oled/blob/master/img/examples/welcome.png?raw=true) | ![Splash](https://github.com/gsasha/rpi_i2c_oled/blob/master/img/examples/splash.png?raw=true) | ![CPU Stats](https://github.com/gsasha/rpi_i2c_oled/blob/master/img/examples/cpu.png?raw=true) | ![RAM Stats](https://github.com/gsasha/rpi_i2c_oled/blob/master/img/examples/memory.png?raw=true) | ![Storage Stats](https://github.com/gsasha/rpi_i2c_oled/blob/master/img/examples/storage.png?raw=true) | ![Network Stats](https://github.com/gsasha/rpi_i2c_oled/blob/master/img/examples/network.png?raw=true) | ![Goodbye](https://github.com/gsasha/rpi_i2c_oled/blob/master/img/examples/static_goodbye.png?raw=true)
 
 <br>
 
 Also available as a stand alone service outside of Home Assistant which can be accessed from the core repository:
 
-[rpi_i2c_oled](https://github.com/crismc/rpi_i2c_oled)
+[rpi_i2c_oled](https://github.com/gsasha/rpi_i2c_oled)
 <br>
 <br>
 
@@ -27,8 +27,8 @@ Aswell as the above screens, you can configure a static custom screen which can 
 
 If the configured text is greater than the screen size, it will scroll across the screen unless you configure it to display as lines. Scrolling animations also supports configurable apmlitude enabling the text to wave up and down as it scrolls.
 
-![Exit](https://github.com/crismc/rpi_i2c_oled/blob/master/img/examples/static_goodbye.png?raw=true)
-![Welcome](https://github.com/crismc/rpi_i2c_oled/blob/master/img/examples/welcome.png?raw=true)
+![Exit](https://github.com/gsasha/rpi_i2c_oled/blob/master/img/examples/static_goodbye.png?raw=true)
+![Welcome](https://github.com/gsasha/rpi_i2c_oled/blob/master/img/examples/welcome.png?raw=true)
 
 This screen can take variables to help personalise your view:
 ```
@@ -100,7 +100,7 @@ Easiest way to install this addon is to add the repository to Home Assistant.
 1. Go to Settings > Add-ons
 2. In the bottom right, select Add-on store
 3. Top right, select the 3 dots and select 'Repositories'
-4. In the add field enter the repository: ```https://github.com/crismc/homeassistant_addons```, and select add
+4. In the add field enter the repository: ```https://github.com/gsasha/homeassistant_addons```, and select add
 5. Restart Home Assistant
 6. In the Add-on store, you should now see Home Assistant Add-ons, with I2C OLED Display in the list.
 7. Select the I2C OLED Display, and choose 'Install'
@@ -139,14 +139,14 @@ Easiest way to install this addon is to add the repository to Home Assistant.
 
 
 <!-- Badges -->
-[release-badge]: https://img.shields.io/github/v/release/crismc/homeassistant_addons?style=flat-square
-[downloads-badge]: https://img.shields.io/github/downloads/crismc/homeassistant_addons/total?style=flat-square
+[release-badge]: https://img.shields.io/github/v/release/gsasha/homeassistant_addons?style=flat-square
+[downloads-badge]: https://img.shields.io/github/downloads/gsasha/homeassistant_addons/total?style=flat-square
 
 <!-- References -->
 
 [home-assistant]: https://www.home-assistant.io/
-[release-url]: https://github.com/crismc/homeassistant_addons/releases
+[release-url]: https://github.com/gsasha/homeassistant_addons/releases
 
 [home-assistant-docs-url]: https://www.home-assistant.io/common-tasks/os#enable-i2c-with-an-sd-card-reader
 [hassosconfigurator-url]: https://github.com/adamoutler/HassOSConfigurator/tree/main/Pi4EnableI2C
-[release-url]: https://github.com/crismc/rpi_i2c_oled/releases
+[release-url]: https://github.com/gsasha/rpi_i2c_oled/releases
