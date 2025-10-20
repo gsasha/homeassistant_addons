@@ -1,2 +1,0 @@
-git+https://github.com/gsasha/rpi_i2c_oled.git@v1.0.55#egg=rpi_i2c_oled
-
