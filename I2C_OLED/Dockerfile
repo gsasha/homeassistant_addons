@@ -11,7 +11,7 @@ RUN \
     py3-smbus
 
 #RUN git clone --single-branch --depth 1 https://github.com/gsasha/rpi_i2c_oled.git /I2C_OLED
-RUN git clone -b v1.0.54 --single-branch --depth 1 https://github.com/gsasha/rpi_i2c_oled.git /I2C_OLED
+RUN git clone -b v1.0.55 --single-branch --depth 1 https://github.com/gsasha/rpi_i2c_oled.git /I2C_OLED
 
 COPY run.sh /
 WORKDIR /data
