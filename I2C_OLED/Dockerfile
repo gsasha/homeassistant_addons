@@ -12,7 +12,7 @@ RUN \
     py3-requests
 
 RUN git clone --single-branch --depth 1 https://github.com/gsasha/rpi_i2c_oled.git /I2C_OLED; cd ./I2C_OLED;\
- git checkout 0b8b517
+ git checkout 13f374a
 #RUN git clone -b v1.0.55 --single-branch --depth 1 https://github.com/gsasha/rpi_i2c_oled.git /I2C_OLED
 #COPY requirements.txt /
 #RUN pip3 install --no-cache-dir --break-system-packages -r /requirements.txt
