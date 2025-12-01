@@ -1,6 +1,6 @@
 name: "I2C OLED Display for SSD1306, SSD1309"
 description: "This addon lets you display to your I2C OLED for a Raspberry Pi with an I2C SSD1306 0.91\" 128x32 and SSD1309 128x64 OLED."
-version: "b6de7ef"
+version: "b963322"
 slug: "i2c_oled_display"
 startup: services
 boot: manual
@@ -39,13 +39,7 @@ devices:
   - /dev/i2c-19
   - /dev/i2c-20
 options:
-  Show_Static_Screen: true
-  Show_Welcome_Screen: true
-  Show_Splash_Screen: true
-  Show_Network_Screen: true
-  Show_CPU_Screen: true
-  Show_Memory_Screen: true
-  Show_Storage_Screen: true
+  Show_Status_Screen: true
 
   Welcome_Screen_Text: "Welcome to {hostname}"
   Static_Screen_Text: "Hassio verion {hassio.os.version} on {hostname} with IP {ip}"
@@ -58,23 +52,8 @@ options:
   Temperature_Unit: "C"
   Rotate: 0
 
-  Welcome_Screen_Duration: 5
-  Welcome_Screen_Limit: 2
-
-  Splash_Screen_Duration: 5
-  Splash_Screen_Limit: 0
-
-  Network_Screen_Duration: 10
-  Network_Screen_Limit: 0
-
-  CPU_Screen_Duration: 5
-  CPU_Screen_Limit: 0
-
-  Memory_Screen_Duration: 5
-  Memory_Screen_Limit: 0
-
-  Storage_Screen_Duration: 5
-  Storage_Screen_Limit: 0
+  Status_Screen_Duration: 1
+  Status_Screen_Limit: 0
 
   Debug_Mode: false
   I2C_bus: 1
@@ -83,13 +62,7 @@ options:
   Show_Icons: True
 
 schema:
-  Show_Static_Screen: bool
-  Show_Welcome_Screen: bool
-  Show_Splash_Screen: bool
-  Show_Network_Screen: bool
-  Show_CPU_Screen: bool
-  Show_Memory_Screen: bool
-  Show_Storage_Screen: bool
+  Show_Status_Screen: bool
 
   Welcome_Screen_Text: "str?"
   Static_Screen_Text: "str?"
