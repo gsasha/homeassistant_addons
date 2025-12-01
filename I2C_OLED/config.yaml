@@ -41,12 +41,7 @@ devices:
 options:
   Show_Status_Screen: true
 
-  Welcome_Screen_Text: "Welcome to {hostname}"
-  Static_Screen_Text: "Hassio verion {hassio.os.version} on {hostname} with IP {ip}"
-  Graceful_Exit_Text: "Exited at {datetime}"
-
-  Default_Duration: 10
-  Scroll_Amplitude: 6
+  Default_Duration: 1
   DateTime_Format: "%d/%m/%Y %H:%M:%S"
   Static_Screen_Text_NoScroll: false
   Temperature_Unit: "C"
@@ -59,42 +54,20 @@ options:
   I2C_bus: 1
   Screenshot: ''
   Driver: 'SSD1306'
-  Show_Icons: True
 
 schema:
   Show_Status_Screen: bool
 
-  Welcome_Screen_Text: "str?"
-  Static_Screen_Text: "str?"
-  Graceful_Exit_Text: "str?"
- 
   Default_Duration: int
-  Scroll_Amplitude: "int?"
   DateTime_Format: "str?"
   Static_Screen_Text_NoScroll: bool
   Temperature_Unit: "list(C|F)?"
   Rotate: "int?"
 
-  Welcome_Screen_Duration: "int?"
-  Welcome_Screen_Limit: "int?"
-
-  Splash_Screen_Duration: "int?"
-  Splash_Screen_Limit: "int?"
-
-  Network_Screen_Duration: "int?"
-  Network_Screen_Limit: "int?"
-
-  CPU_Screen_Duration: "int?"
-  CPU_Screen_Limit: "int?"
-
-  Memory_Screen_Duration: "int?"
-  Memory_Screen_Limit: "int?"
-
-  Storage_Screen_Duration: "int?"
-  Storage_Screen_Limit: "int?"
+  Status_Screen_Duration: "int?"
+  Status_Screen_Limit: "int?"
 
   Debug_Mode: bool
   I2C_bus: "int(0,20)"
   Screenshot: "list(|/media)"
   Driver: "list(SSD1306|SSD1309)"
-  Show_Icons: bool
