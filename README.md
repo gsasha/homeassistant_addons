@@ -22,6 +22,10 @@ Easiest way to install these addons is to add the repository to Home Assistant:
 ### I2C OLED
 Project for displaying onto an I2C OLED 0.91" 128x32 and 128x64 on a RPi
 
+To push into the repository: 
+```
+vi I2C_OLED/config.yaml; vi I2C_OLED/Dockerfile ; git commit -am "version" ; git push
+```
 ### FlashForge
 Fork of [johnpdowling][original-addon-url] Flashforge Finder API add-on
 Runs an API server to expose the Flashforge 3D printers as API endpoints to consume as RESTful sensors
